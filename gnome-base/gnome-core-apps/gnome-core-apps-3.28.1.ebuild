@@ -17,11 +17,9 @@ KEYWORDS="~amd64 ~ia64 ~ppc ~ppc64 ~x86"
 # This is a wrapper for the core apps tightly integrated with GNOME 3
 # gtk-engines:2 is still around because it's needed for gtk2 apps
 RDEPEND="
-#	>=gnome-base/gnome-core-libs-${PV}[cups?]
-
 	>=gnome-base/gnome-session-${PV}
 	>=gnome-base/gnome-settings-daemon-${PV}[cups?]
-	>=gnome-base/gnome-control-center-${PV}
+	>=gnome-base/gnome-control-center-3.28.0
 
 	>=app-crypt/gcr-3.20.0
 	>=gnome-base/nautilus-${PV}
@@ -30,10 +28,10 @@ RDEPEND="
 
 	>=app-crypt/seahorse-3.20.0
 	>=app-editors/gedit-3.22.1
-	>=app-text/evince-${PV}
+	>=app-text/evince-3.28.0
 	>=gnome-extra/gnome-contacts-3.22.1
 	>=media-gfx/eog-${PV}
-	>=media-video/totem-${PV}
+	>=media-video/totem-3.24.0
 	>=x11-terms/gnome-terminal-${PV}
 
 	doc? (
@@ -41,7 +39,7 @@ RDEPEND="
 		>=gnome-extra/yelp-3.22.0
 	)
 
-	>=x11-themes/adwaita-icon-theme-${PV}
+	>=x11-themes/adwaita-icon-theme-3.28.0
 	>=x11-themes/gnome-themes-standard-3.22.3
 
 	bluetooth? ( >=net-wireless/gnome-bluetooth-3.20.0 )

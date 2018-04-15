@@ -19,13 +19,12 @@ S=${WORKDIR}
 
 # TODO: check accessibility completeness
 RDEPEND="
-#	>=gnome-base/gnome-core-libs-${PV}[cups?]
 	>=gnome-base/gnome-core-apps-${PV}[cups?,bluetooth?,cdr?]
 
 	>=gnome-base/gdm-${PV}
 
-	>=x11-wm/mutter-${PV}
-	>=gnome-base/gnome-shell-${PV}[bluetooth?]
+	>=x11-wm/mutter-3.28.0
+	>=gnome-base/gnome-shell-3.28.0[bluetooth?]
 
 	>=x11-themes/gnome-backgrounds-3.24.0
 	x11-themes/sound-theme-freedesktop
@@ -36,7 +35,7 @@ RDEPEND="
 		>=app-accessibility/caribou-0.4.21
 		>=app-accessibility/orca-3.24.0
 		>=gnome-extra/mousetweaks-3.12.0 )
-	classic? ( >=gnome-extra/gnome-shell-extensions-${PV} )
+	classic? ( >=gnome-extra/gnome-shell-extensions-3.28.0 )
 	extras? ( >=gnome-base/gnome-extra-apps-${PV} )
 "
 
