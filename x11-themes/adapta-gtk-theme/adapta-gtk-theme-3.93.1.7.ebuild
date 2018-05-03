@@ -9,11 +9,12 @@ DESCRIPTION="Adapta GTK theme"
 HOMEPAGE="https://github.com/adapta-project/adapta-gtk-theme"
 LICENCE="GPL-2 CC-BY-SA-4.0"
 SLOT="0"
-IUSE="gnome cinnamon xfce mate openbox parallel"
+IUSE="gnome cinnamon xfce mate openbox parallel fonts"
 KEYWORDS="-* ~amd64 ~x86"
 RDEPEND=">=x11-libs/gtk+-3.20.0:3
 	>=x11-libs/gtk+-2.24.30:2
 	>=x11-themes/gtk-engines-murrine-0.98.1
+	fonts? ( media-fonts/roboto )
 	gnome? ( >=gnome-base/gnome-shell-3.20.0 )
 	cinnamon? ( >=gnome-extra/cinnamon-2.8.6 )
 	xfce? ( >=xfce-base/xfce4-meta-4.12.2 )

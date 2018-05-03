@@ -11,5 +11,6 @@
   </upstream>
   <use>
     <flag name="parallel">Compiles SVG using <pkg>sys-process/parallel</pkg> for speeding up build</flag>
+    <flag name="fonts">Installs Roboto as a runtime dependency. User still has to select that font manually.</flag>
   </use>
 </pkgmetadata>
