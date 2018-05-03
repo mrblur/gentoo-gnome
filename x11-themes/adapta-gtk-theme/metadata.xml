@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>kamil+adapta@mrblur.net</email>
+    <name>Kamil Kamiński</name>
+  </maintainer>
+  <upstream>
+    <bugs-to>https://github.com/adapta-project/adapta-gtk-theme/issues</bugs-to>
+    <changelog>https://github.com/adapta-project/adapta-gtk-theme/releases</changelog>
+  </upstream>
+  <use>
+    <flag name="parallel">Compiles SVG using <pkg>sys-process/parallel</pkg> for speeding up build</flag>
+  </use>
+</pkgmetadata>
