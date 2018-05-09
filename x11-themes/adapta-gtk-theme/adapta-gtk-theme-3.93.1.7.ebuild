@@ -5,7 +5,7 @@ EAPI=6
 
 inherit autotools
 
-DESCRIPTION="Adapta GTK theme"
+DESCRIPTION="An adaptive Gtk+ theme based on Material Design Guidelines"
 HOMEPAGE="https://github.com/adapta-project/adapta-gtk-theme"
 LICENCE="GPL-2 CC-BY-SA-4.0"
 SLOT="0"
